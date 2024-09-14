@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Function for EDA (Improved)
-def eda_improved(df):
+def eda(df):
     """Performs an extended EDA including correlation, histograms, and boxplots."""
     
     # Plot histograms for numerical features

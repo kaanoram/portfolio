@@ -8,7 +8,7 @@ def load_data(file_path):
     return pd.read_excel(file_path, sheet_name='E Comm')
 
 # Function to clean the dataset with improvements
-def clean_data_improved(df):
+def clean_data(df):
     """Handles missing values and outliers."""
     
     # Fill missing values for numerical columns with the median
