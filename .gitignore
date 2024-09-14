@@ -1,0 +1,34 @@
+# Virtual Environment
+ecommerce_churn_env/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Other common Python files to ignore
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
